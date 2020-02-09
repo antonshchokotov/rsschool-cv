@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1024px;
+  margin: 50px auto 0;
+  background-image: linear-gradient(rgba(3, 95, 170, 0.493), rgba(0, 238, 255, 0.479)) ;
+}
+
+.name {
+  margin-left: 20%;
+}
+
+.name h2 {
+  margin-top: 100px;
+}
+
+.photo {
+  overflow: auto;
+  position: relative;
+  top: -100px;
+}
+
+.photo img {
+  width: 150px;
+  float: right;
+  margin-right: 15%;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50px;
+}
+
+div {
+  margin-top: 20px;
+}
+
+ul {
+  margin-left: 30px;
+}
